@@ -58,3 +58,10 @@ span{
 .claimbtn{
     background-color: hsl(154, 59%, 51%) ;
 }
+
+@media (max-width: 800px) {
+    main {
+      flex-direction: column;
+      width: 375px;
+    }
+  }
